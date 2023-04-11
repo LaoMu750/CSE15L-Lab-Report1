@@ -31,4 +31,17 @@ ssh chn031@ieng6.ucsd.edu
 Then I finally can log in to one of the ieng6 account. On the first time we logged into the account, it will ask us a question about whether **we are sure we want to continue connecting(yes/no/[fingerprint])** As I typed yes into the terminal and press enter, it guided me to the ieng6 account.The following is the screenshot of my logged in ieng6 account.
 >
 ![ieng6](ssh.png)
-
+___
+# Running some Command
+![command](command.png)
+```
+ls -a
+```
+The command that I have tried in the ieng6 account is `ls -a` which is to list all the files within the account including any hidden files. However our group also tried some other commands. Such as,`ls`, `cd` and so on. For the command `cd`, the system will change directory to the specific directory that we specified in command line. For example, `cd ~` will return to the home directory and `cd ..` will return to the last directory.
+In order to exit the ieng6 account, we can simply type `exit` and enter. Then it will log out the ieng6 account.
+___
+**Appreciate for reading my first lab report**
+>
+Sincerely,
+>
+Chaklam Ng
