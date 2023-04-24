@@ -29,6 +29,8 @@ However, I have tried to ssh my account with the command `ssh cs15lsp23ok@ieng6.
 ```
 ssh chn031@ieng6.ucsd.edu
 ```
+The command `ssh` + the ieng6 account that we each owned will allow us to connect our computers to the remote server. That can actually help us access the files on remote server easily.
+>
 Then I finally can log in to one of the ieng6 account. On the first time we logged into the account, it will ask us a question about whether **we are sure we want to continue connecting(yes/no/[fingerprint])** As I typed yes into the terminal and press enter, it guided me to the ieng6 account.The following is the screenshot of my logged in ieng6 account.
 >
 ![ieng6](ssh.png)
